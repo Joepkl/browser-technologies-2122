@@ -63,5 +63,18 @@ Met JS is het voor de gebruiker mogelijk om antwoorden lokaal op te slaan. Hierd
 
 
 
-
 # Testverslag
+
+Ik heb zowel CSS als JS uitgezet en getest of alles nog werkt. Alles is nog te doen en de core functionaliteit werkt nog. Ik heb de HTML code door een validator laten checken, en na een paar kleine aanpassingen zaten daar geen fouten meer in. 
+
+### Onderzochte features
+Ik heb op caniuse.com de features gecheckt of ze ondersteunt worden op verschillende browsers. Bijna alle features die ik heb gebruikt worden goed ondersteunt. Alleen op hele oude browsers zoals IE 6-9 niet. Alleen animation wordt niet ondersteunt door Opera mini, verder is animation niet belangrijk voor de functionaliteiten dus dat is geen probleem.
+
+* @Keyframes
+* @Font-face
+* Transform
+* :Active
+* :Valid
+* Min width
+* Animation
+
