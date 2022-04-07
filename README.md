@@ -34,18 +34,19 @@ De core functionaliteiten van de enquete werken nog met alleen HTML. Het is moge
 
 Door de CSS verbeterd de user experience. Er zijn UI principes toegevoegd, en feedback op acties van de gebruiker.
 
-<img width="800" alt="Schermafbeelding 2022-04-07 om 15 59 30" src="https://user-images.githubusercontent.com/74242736/162216789-e87979e7-fc71-4c54-b020-2f9867d4f10f.png">
+<img width="800" alt="Schermafbeelding 2022-04-07 om 16 37 43" src="https://user-images.githubusercontent.com/74242736/162224734-bdcf7ef1-3ef9-4ab7-8851-fba537e0ff83.png">
 
 Een voorbeeld van feedback aan de gebruiker is hier te zien. De button is grijs wanneer nog niet alle velden zijn ingevuld, en je kan nog niet door naar de volgende pagina. Wanneer een veld correct is ingevuld wordt de border groen. Als alle velden zijn ingevuld veranderd de button van kleur en is het mogelijk om door te gaan naar de volgende pagina.
 
-<img width="800" alt="Schermafbeelding 2022-04-07 om 16 00 21" src="https://user-images.githubusercontent.com/74242736/162216968-62631dad-875b-4806-8c61-bf0d89a3fb41.png">
+<img width="800" alt="Schermafbeelding 2022-04-07 om 16 39 16" src="https://user-images.githubusercontent.com/74242736/162225083-58e8a511-6698-4311-999d-1fb5bade30f7.png">
+
 
 
 ### Laag 3 -> JS
 
 Met JS is het voor de gebruiker mogelijk om antwoorden lokaal op te slaan. Hierdoor worden de antwoorden niet meteen verwijderd.
 
-<img width="800" alt="Schermafbeelding 2022-04-07 om 16 04 19" src="https://user-images.githubusercontent.com/74242736/162217797-ec9f0e49-5a47-4d45-b97b-54b460736f91.png">
+<img width="800" alt="Schermafbeelding 2022-04-07 om 16 36 02" src="https://user-images.githubusercontent.com/74242736/162224324-071b62ea-311a-4ab3-bcaa-7d8cff105be7.png">
 
 
 
