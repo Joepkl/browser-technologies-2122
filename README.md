@@ -50,7 +50,18 @@ Met JS is het voor de gebruiker mogelijk om antwoorden lokaal op te slaan. Hierd
 
 
 
-
 # Geteste browsers
+
+### Desktop
+- [x] Chrome
+- [x] Safari
+
+### Mobiel
+- [x] Safari (iPhone)
+- [x] Chrome browser Nexus 5 
+
+
+
+
 
 # Testverslag
