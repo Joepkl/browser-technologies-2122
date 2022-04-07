@@ -45,6 +45,9 @@ Een voorbeeld van feedback aan de gebruiker is hier te zien. De button is grijs 
 
 Met JS is het voor de gebruiker mogelijk om antwoorden lokaal op te slaan. Hierdoor worden de antwoorden niet meteen verwijderd.
 
+<img width="800" alt="Schermafbeelding 2022-04-07 om 16 04 19" src="https://user-images.githubusercontent.com/74242736/162217797-ec9f0e49-5a47-4d45-b97b-54b460736f91.png">
+
+
 
 
 
