@@ -1,0 +1,62 @@
+/* Algemene styling */
+@font-face {
+    font-family: roboto;
+    src: url("fonts/Roboto-Regular.ttf");
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "roboto";
+    background-color: #a3e3d5;
+}
+
+main{
+    width: 40vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+}
+
+
+/* Header styling */
+header{
+    width: 60%;
+    margin-left: 2vw;
+    margin-top: 2vw;
+}
+
+h1{
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+
+h2{
+    background-color: #f3722c;
+    padding: 3px;
+    color: black;
+    font-size: 25px;
+    width: fit-content;
+    text-align: center;
+    animation: vergroot 5s infinite;
+    animation-timing-function: ease-in-out;
+}
+
+p{
+    margin-top: 10px;
+    color: #18392b;
+    font-size: 16px;
+}
+
+/* Animatie bedankt */
+@keyframes vergroot{
+    0% {transform: scale(0);}
+    25% {transform: scale(1);}
+    50% {transform: scale(1);}
+    75% {transform: scale(1);}
+    100% {transform: scale(0);}
+}

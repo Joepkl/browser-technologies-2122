@@ -1,0 +1,28 @@
+<%- include('./partials/headIndex') %>
+
+<body>
+    <header>
+        <h1>Enquete minor webdevelopment</h1>
+        <p>Welkom bij de enquete over de minor webdevelopment van de Hogeschool van Amsterdam. Er zijn een aantal vragen opgesteld 
+            over elk vak. Graag alle velden invullen, het is mogelijk om de enquete te verlaten en op een later moment te hervatten.
+            Vul om te beginnen jouw persoonlijke gegevens in.
+        </p>
+    </header>
+
+    <main>
+        <form method="post" enctype="application/x-www-form-urlencoded" action="/cssttr"> 
+            <fieldset>
+                <h2>Persoonlijke gegevens</h2>
+                <h3>Naam</h3>
+                <input type="text" id="naamPersoon" placeholder="Vul hier jouw naam in" name="naam" autocapitalize="words" autocomplete="off" required>
+                <h3>Studentnummer</h3>
+                <input type="number" id="studentNummer" min="50000000" max="59999999" placeholder="Vul hier jouw studentnummer in" name="studentnummer" required>
+            </fieldset>
+            <a href="/cssttr">
+                <input type="submit" value="Enquete starten" id="submitButton">
+            </a>
+        </form>
+     </main>
+</body>
+
+<%- include('./partials/foot') %>

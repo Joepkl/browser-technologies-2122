@@ -1,0 +1,51 @@
+<%- include('./partials/headPwa') %>
+
+<body>
+    <header>
+        <h1>Vak: 4/4</h1>
+        <h2>Progressivewebapps</h2>
+    </header>
+    <main>
+        <form method="post" enctype="application/x-www-form-urlencoded" action="/eindpagina">
+            <fieldset>
+                <h3>Docent</h3>
+                <input type="text" id="pwaDocent" placeholder="Naam vakdocent" name="docent" autocomplete="off" required>
+                <h3>Startdatum</h3>
+                <input type="date" id="pwaStartdatum" name="startdatum" required>
+                <h3>Einddatum</h3>
+                <input type="date" id="pwaEinddatum" name="einddatum" required>
+                <h3>Beoordeling vak</h3>
+                <input type="number" id="pwaCijfer" min="1.0" max="10.0" step="0.5" placeholder="1.0 t/m 10.0" name="beoordeling" required>
+                <h3>Niveau lesstof</h3>
+                <select name="lesstof" id="pwaLesstof" required>
+                    <option value="">Kies</option>
+                    <option value="Zeer makkelijk">Zeer makkelijk</option>
+                    <option value="Makkelijk">Makkelijk</option>
+                    <option value="Gemiddeld">Gemiddeld</option>
+                    <option value="Moeilijk">Moeilijk</option>
+                    <option value="Zeer moeilijk">Zeer moeilijk</option>
+                </select>
+                <h3>Hoe goed uitgelegd</h3>
+                <select name="uitleg" id="pwaUitleg" required>
+                    <option value="">Kies</option>
+                    <option value="Onduidelijk">Onduidelijk</option>
+                    <option value="Gemiddeld">Gemiddeld</option>
+                    <option value="Duidelijk">Duidelijk</option>
+                </select>
+                <h3>Eigen inzicht</h3>
+                <select name="inzicht" id="pwaInzicht" required>
+                    <option value="">Kies</option>
+                    <option value="Ik beheers de stof niet">Ik beheers de stof niet</option>
+                    <option value="Ik beheers de stof redelijk">Ik beheers de stof redelijk</option>
+                    <option value="Ik beheers de stof goed ">Ik beheers de stof goed</option>
+                </select>
+            </fieldset>
+            <a href="/eindpagina">
+                <input type="submit" value="Enquete versturen" id="submitButton">
+            </a>
+        </form>
+    </main>
+</body>
+
+
+<%- include('./partials/foot') %>
