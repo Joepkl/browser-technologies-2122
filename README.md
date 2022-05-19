@@ -44,7 +44,7 @@ Een voorbeeld van feedback aan de gebruiker is hier te zien. De button is grijs 
 
 ### Laag 3 -> JS
 
-Met JS is het voor de gebruiker mogelijk om antwoorden lokaal op te slaan. Hierdoor worden de antwoorden niet meteen verwijderd.
+Met JS is het voor de gebruiker mogelijk om antwoorden op te slaan in de session storage. Hierdoor blijven antwoorden staan als de pagina wordt herladen, en is het mogelijk om terug te gaan naar vorige pagina's en antwoorden aan te passen. Verder wordt met server-side JS de antwoorden van een gebruiker opgeslagen en geschreven in een JSON bestand. Hierdoor kan de beheerder van de enquete de antwoorden bekijken.
 
 <img width="800" alt="Schermafbeelding 2022-04-07 om 16 36 02" src="https://user-images.githubusercontent.com/74242736/162224324-071b62ea-311a-4ab3-bcaa-7d8cff105be7.png">
 
