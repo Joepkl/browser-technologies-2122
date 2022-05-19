@@ -1,0 +1,134 @@
+/* Algemene styling */
+@font-face {
+    font-family: roboto;
+    src: url("fonts/Roboto-Regular.ttf");
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "roboto", Verdana, sans-serif;
+    background-color: #a3e3d5;
+}
+
+main{
+    width: 100vw;
+}
+
+
+/* Header styling */
+header{
+    width: 60%;
+    margin-left: 2vw;
+    margin-top: 2vw;
+}
+
+h1{
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+
+p{
+    color: #18392b;
+    font-size: 16px;
+}
+
+
+/* Form styling */
+fieldset{
+    border: none;
+}
+
+form{
+    width: 30vw;
+    min-width: 250px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 10px;
+
+}
+
+form input{
+    width: 30vw;
+    min-width: 250px;
+    font-size: 16px;
+    border-radius: 3% 3% 3% 3% / 50% 50% 50% 50%;
+    text-align: center;
+    border: #18392b solid 2px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+h2{
+    font-size: 25px;
+}
+
+h3{
+    font-size: 20px;
+    margin-bottom: .5vw;
+    margin-top: 1.5vw;
+    color: #18392b
+}
+
+#submitButton{
+    background-color: lightgrey;
+    width: auto;
+    min-width: 0;
+    color: grey;
+    border: grey solid 2px;
+    padding: 5px;
+    border-radius: 0;
+    margin-top: 15px;
+}
+
+#submitButton:hover{
+    border: solid white 2px;
+    color: white;
+}
+
+
+/* Animatie input vergroten, niet op alles ondersteunt dus @Supports*/
+@supports selector(:focus){
+    input:focus{
+        border: #f3722c solid 2px;
+        transform: scale(1.08);
+        transition: .5s;
+    }
+}
+
+
+/* Supports voor wanneer valid niet wordt ondersteunt in de browser */
+@supports not selector(:valid){
+    #submitButton{
+        color: black;
+        background-color: #f3722c;
+    }
+}
+
+/* Form validation */
+input:valid{
+    border: green solid 2px;
+    box-shadow: none;
+}
+
+
+form:valid #submitButton{
+    background-color: #f3722c;
+    width: auto;
+    min-width: 0;
+    color: black;
+    border: black solid 2px;
+    padding: 5px;
+    border-radius: 0;
+    margin-top: 15px;
+    box-shadow: 0px 0px 10px darkorange;
+}
+
+form:valid #submitButton:hover{
+    border: solid white 2px;
+    color: white;
+}
