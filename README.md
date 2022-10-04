@@ -7,7 +7,7 @@ In het vak Browser Technologies gaan we onderzoeken wat Progressive Enhancement 
 
 # User story
 
-Ik wil een enquête kunnen invullen over de minor Web Development, met verschillende antwoordmogelijkheden. Als ik de enquête niet afkrijg, wil ik later weer verder gaan met waar ik ben gebleven.
+Ik wil een enquête kunnen invullen over de minor Web Development van de HvA, met verschillende antwoordmogelijkheden. Als ik de enquête niet afkrijg, wil ik later weer verder gaan met waar ik ben gebleven.
 
 
 
